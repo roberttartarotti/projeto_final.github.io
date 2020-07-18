@@ -1,0 +1,317 @@
+<!--Vinhedo, 2020-05-03 - Robert Kelvin Proto Tartarotti - 157173 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> CV Robert Tartarotti </title>
+        <!-- <script src="/__/firebase/7.15.5/firebase-app.js"></script>
+        <script src="/__/firebase/7.15.5/firebase-database.js"></script>
+        <script src="/__/firebase/7.15.5/firebase-auth.js"></script>
+        <script src="/__/firebase/7.15.5/firebase-functions.js"></script> -->
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-hosting.js"></script> -->
+        
+    <!-- Initialize Firebase -->
+    <!-- <script src="/__/firebase/init.js"></script> -->
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="js/functions.js"></script>
+    </head>
+    <body>
+        <!--  ******************   Foto   ******************  -->
+        <div id="frame" class="frame">
+          Quadro
+        </div>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu" src="pic/1.png"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu na POLIMI" src="pic/2.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Eu voltando pro Brasil" src="pic/3.jpeg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Com amigo e namorada" src="pic/4.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Amigos da moradia" src="pic/5.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Castelo da familha Savoia" src="pic/6.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Neve" src="pic/7.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Mapeando o solo com radar" src="pic/8.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Como" src="pic/9.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Arvores de Como" src="pic/10.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Estudando" src="pic/11.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Este navio é de 1500!" src="pic/12.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Algarve" src="pic/13.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Algarve" src="pic/13.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Algarve com namorada" src="pic/15.jpg"/>
+        <img onmouseout="undisplayPicture()" onmouseover="displayPicture(this)" alt="Terra a vista" src="pic/16.jpg"/>              
+
+        <!--  ******************   cabeçalho (titulo, links externos)   ******************  -->
+        <header>
+            <h1> Robert Kelvin Proto Tartarotti </h1> <!--tag de titulo h1 - principal-->
+            <nav>
+                <link_1>
+                    <a href="http://lattes.cnpq.br/3464952555741219">Lattes</a>
+                </link_1>
+                <link_1>
+                    <a href="https://www.linkedin.com/in/robert-kelvin-p-929a7874/">linkedin</a>
+                </link_1>
+            </nav>
+        </header>
+
+        <!--  ******************   cabeçalho (titulo, links externos)   ******************  -->
+        <section_inf>
+            <h2> Informações </h2>
+            <ul>
+                <li>Nacionalidade: Brasileiro/Italiano</li>
+                <li>Idade: 28 anos</li>
+                <li>Natural de: <a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo"> São Paulo, SP</a></li>
+                <li>Residente em: Rua Buenos Aires, 178. Nova Vinhedo. 
+                    <a href="https://pt.wikipedia.org/wiki/Vinhedo"> Vinhedo, SP</a>, CEP: 13284-152</li>
+                <li>Contato: (19) 98384-5052 / whatsapp +393801771026</li>
+                <li>E-mail: <a href="mailto:robert.tartarotti@gmail.com"> robert.tartarotti@gmail.com</a> </li>
+            </ul>
+        </section_inf>
+
+        <!--  ******************   Resumo Profissional   ******************  -->
+        <section>
+            <h2> Resumo Profissional </h2>
+            <p> Competência em trabalhar em grupo, esforçado e dedicado. 
+                Amante da técnologia e do progresso </p>
+        </section>
+
+        <!--  ******************   Linguagens   ******************  -->
+        <section>
+            <h2> Linguagens </h2>
+            <ol>
+                <li><a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_portuguesa"> <b> Português </b></a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_italiana"> <b> Italiano </b></a></li>
+                <li><a href="https://pt.wikipedia.org/wiki/L%C3%ADngua_inglesa"> <b> Inglês </b></a></li>
+            </ol>
+        </section>
+        
+        <!--  ******************   Formação acadêmica   ******************  -->
+        <section>
+            <h2> Formação acadêmica </h2>
+            <ul>
+                <!-- POLIMI -->
+                <li><a href="https://www.polimi.it/"> <b> Politecnico di Milano (POLIMI)</b></a> <br>
+                    <a href="https://www2.polimi.it/index.html%3Fid=8984&L=1.html"> Master in telecom
+                    munication engineering </a> - <a href="https://en.wikipedia.org/wiki/Milan"> 
+                    Milan, MI </a> - 09/2017 - 08/2020
+                </li>
+                <!-- UNICAMP -->
+                <li><a href="https://www.unicamp.br/unicamp/"> <b> Universidade Estadual de Campinas 
+                    (UNICAMP)</b></a> <br> <a href="https://pt.wikipedia.org/wiki/Engenharia_de_telecomunica%C3%A7%C3%B5es"
+                    > Engenharia de telecomunicações </a> - <a href="https://pt.wikipedia.org/wiki/Limeira"
+                    > Limeira, SP</a> - 02/2014 - 07/2020 
+                </li>
+                <!-- UNESP -->
+                <li><a href="https://www2.unesp.br/"> <b> Universidade Estadual Paulista 
+                    (UNESP)</b></a> <br> <a href="https://pt.wikipedia.org/wiki/F%C3%ADsica"> 
+                    Bacharelado em Física</a> - <a href="https://pt.wikipedia.org/wiki/Rio_Claro"
+                    > Rio Claro, SP</a> - 02/2013 - 02/2014 
+                </li>
+                <!-- UNESP -->
+                <li><a href="https://www2.unesp.br/"> <b> Universidade Estadual Paulista 
+                    (UNESP)</b></a> <br> <a href="https://pt.wikipedia.org/wiki/F%C3%ADsica"> 
+                    Bacharelado em Física</a> - <a href="https://pt.wikipedia.org/wiki/Rio_Claro"
+                    > Rio Claro, SP</a> - 02/2013 - 02/2014 
+                </li>
+                <!-- COTUCA -->
+                <li><a href="https://cotuca.unicamp.br/cotuca/"> <b> Colégio Técnico de Campinas 
+                    (COTUCA / UNICAMP)</b></a> <br> <a href="https://pt.wikipedia.org/wiki/T%C3%A9cnico_em_eletroeletr%C3%B4nica"
+                    > Técnico em eletroeletrônica</a> - <a href="https://pt.wikipedia.org/wiki/Campinas">
+                    Campinas, SP</a> - 12/2008 - 12/2012 </p>
+                </li>
+            </ul>
+        </section>
+
+        <!--  ******************   Histórico Profissional   ******************  -->
+        <section>
+            <h2> Histórico Profissional </h2>
+            <ul>
+                <!-- PITEC -->
+                <li> <a href="https://www.pitec.co/"> <b> Pi técnologia Eireli </b></a> <br> Desenvolvimento 
+                    de Software e auxilio em Firmware para controle de instrumentos de detecção de 
+                    <br> raio X para o acelerador de particulas <a href="https://www.lnls.cnpem.br/sirius/projeto-sirius/"
+                    > Sirius</a> - <a href="https://pt.wikipedia.org/wiki/Campinas"> Campinas, SP</a> - 12/2019 - atualmente
+                </li>
+                <!-- Qualibras -->
+                <li> <a href="http://dmgeletronica.com.br/"> <b> Qualibras Eletrônica (Atual DMG) </b></a>
+                    <br> Reparo e calibração de instrumentação Metrologica, com enfase em <a href=
+                    "https://pt.wikipedia.org/wiki/Oscilosc%C3%B3pio"> osciloscópio</a>, <a href="https://pt.wikipedia.org/wiki/Mult%C3%ADmetro"
+                    > multímetro</a> <br> e <a href="https://en.wikipedia.org/wiki/Spectrum_analyzer"> analisador
+                    de espectro</a> - <a href="https://pt.wikipedia.org/wiki/Campinas"> Campinas,SP</a> - 08/2011 - 08/2012
+                </li>
+            </ul>
+        </section>
+
+        <!--  ******************   Certificados   ******************  -->
+        <section>
+            <h2> Certificados </h2>
+            <ol>
+                <!-- 1Ci 2019 -->
+                <li> <a href="https://www.1ci.com/"> <b> 1Ci </b></a> - <a href=
+                    "https://www.dropbox.com/s/ifni7cuuz776uvn/1Ci%20-%20NGT%20-%202019.pdf?dl=0"> Best 
+                    Project </a> - <a href="https://en.wikipedia.org/wiki/Milan"> Milan, MI </a> -  2019
+                </li>
+                <!-- UPA 2016 -->
+                <li> <a href="https://www.unicamp.br/unicamp/noticias/2019/05/25/de-portas-abertas">
+                    <b> UNICAMP de Portas Abertas (UPA) </b></a> - <a href="https://pt.wikipedia.org/wiki/Limeira"
+                    > Limeira, SP</a> - 2016
+                </li>
+                <!-- PAD 2016 -->
+                <li> <a href="https://www.prg.unicamp.br/?page_id=695"> <b> PAD em Eletrônica Analógica I
+                    </b></a> - <a href="https://pt.wikipedia.org/wiki/Limeira"> Limeira, SP</a> - 2016
+                </li>
+                <!-- PAD 2015 -->
+                <li> <a href="https://www.prg.unicamp.br/?page_id=695"> <b> PAD em Circuitos Elétricos II
+                    </b></a> - <a href="https://pt.wikipedia.org/wiki/Limeira"> Limeira, SP</a> - 2016
+                </li>
+                <!-- PIC18F4520 2012 -->
+                <li> <a href="https://www.educaedu-brasil.com/curso-basico-pic18f4520-cursos-59640.html"> <b> 
+                    UPTEX PIC18F4520 </b></a> -<a href="https://pt.wikipedia.org/wiki/Campinas"> Campinas, 
+                    SP</a> - 2012
+                </li>
+            </ol>
+        </section>
+
+        <!--  ******************   Linguagens de programação   ******************  -->
+        <section>
+            <h2> Linguagens de programação </h2>
+            <ol>
+                <li> <a href="https://www.mathworks.com/products/matlab.html"> <b> Matlab </b></a> </li>
+                <li> <a href="https://www.python.org/"> <b> Python </b></a> </li>
+                <li> <a href="https://pt.wikipedia.org/wiki/C_(linguagem_de_programa%C3%A7%C3%A3o)"> <b> C </b></a> </li>
+                <li> <a href="https://pt.wikipedia.org/wiki/C%2B%2B"> <b> C++ </b></a> </li>
+                <li> <a href="https://www.w3schools.com/html/"> <b> HTML </b></a> - aprendendo </li>
+                <li> <a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript"> <b> JavaScript </b></a> - aprendendo </li>
+            </ol>
+        </section>
+
+        <!--  ******************   Competências   ******************  -->
+        <section>
+            <h2> Competências </h2>
+            <ol>
+                <li> Desenvolvimento de produtos, aplicativos e sistemas </li>
+                <li> Testes de produtos, aplicativos e sistemas</li>
+                <li> <a href="https://www.techtudo.com.br/noticias/2020/01/o-que-e-pacote-office-conheca-os-programas-de-produtividade.ghtml"> 
+                    <b> Pacote Office </b></a> </li>
+            </ol>
+        </section>
+
+        <!--  ******************   Biografia   ******************  -->
+        <section_bio>
+        <h2> Biografia </h2>
+            <!-- história -->
+            <details open><summary>história</summary>
+                <p> Nascido em São Paulo e crescido em Vinhedo (interior do estado), sempre
+                    sonhei em poder fazer algo para o progresso da humanidade. No começo, me 
+                    apaixonei pela história, geografia e astronomia, mas foi quando conheci a
+                    <b>matematica</b> que tudo mudou, uma ciência exata e bela, com grande poder, 
+                    e quando conheci a sua filha, a <b>Fisica</b>,me senti no paraiso. Pois esta 
+                    ciência possuia as belezas da matematica, mas com aplicações no dia-a-dia,
+                    e capaz de explicar, ou ao menos tentar, todas as dúvidas que tinha. Esta 
+                    ciência me possibilitou estudar em um colégio técnico de qualidade em Campinas
+                    e me abriu muitas portas em universidades renomadas como a UNESP e UNICAMP 
+                    Com o tempo conheci também as filhas da fisica, chamadas de engenharia, e trabalhei
+                    com elas durante meu estágio do técnico em uma empresa de Campinas chamadas Qualibras
+                    la, uma engenharia em particular me chamou a atenção, ela era jovem e ainda 
+                    prematura, de um curso que acabara de nascer, mas com muito poder! Era a última da 
+                    arvore, pegando assim o conteudo da elétrica, eletrônica, quimica, fisica e programação
+                    Uma engenharia fascinante, capaz de explicar os fenômenos do eletromagnetismo e usá-los
+                    para transmitir informação. Seu nome é Engenharia de telecomunicações. Todas estas 
+                    coisas eram fascinantes, mas logo percebi que existia um buraco na minha vida, 
+                    pois existia uma area do conhecimento muito potente e capaz de simplificar coisas 
+                    muito complexas, esta area é a programação. Assim, me dediquei a estudar esta area 
+                    durante o último periodo de meu duplo diploma em Milano, Italia, e retornando ao 
+                    Brasil igualmente dei foco, especialmente em Matlab e Python, pois C e C++ ja tinha 
+                    algum conhecimento. Com este esforço consegui um estágio em uma empresa de alta tecnologia
+                    responsavel por fazer os detectores do Sirius, um acelerador de particulas de quarta 
+                    geração e que considero uma joia para a ciência Brasileira. Fiquei muito feliz com esta
+                    oportunidade, e la, vi a programação coordenando todas as demais ciências que conhecia.         
+                </p>
+            </details>
+
+            <!-- história -->
+            <details open><summary>Sonhos</summary>
+                <ol>
+                    <li> Desenvolver técnologias capazes de auxiliar o progresso humano </li>
+                    <li> Desenvolver técnologias capazes de melhorar a vida das pessoas</li>
+                    <li> Incentivar pessoas a fazerem o certo</li>
+                </ol>
+            </details>
+
+            <!-- conclusão -->
+            <details open><summary>conclusão</summary>
+                <p> Os conhecimentos se completam, e desafios são oportunidades         
+                </p>
+            </details>
+       </section_bio>
+
+
+            <!--  ******************   Fale comigo   ******************  -->
+            <!-- <hr/>
+            <div id="header_form" class="closed">
+            <form id = "login_form">
+              <p>
+                <label>Email: <input type="text" name="email" id="email"/></label>
+              </p>
+              <p>
+                <label>Senha:<input type="password" name="senha" id="senha"/>
+              </p>
+              <p>
+                <button type="submit" onclick="return submitAuthentication(event)">Login</button>
+            <button type="submit" onclick="return submitRegistro(event)">Cadastrar</button>
+              </p>
+              
+            </form>
+            </div>
+            <div id="logged_user" class="open">
+              <p>Autenticado: <span id="user_span">Usuário</span></p>
+              <p><a onclick="signOut()">Sign-out</a>
+            </div>
+            <hr/> -->
+            
+            <h1>Fale comigo:</h1>
+            <form id = "contactForm">
+              <p>
+            <label>Name: <input type="text" name="name" id="name"/></label>
+              </p>
+              <p>
+            <label>Company:<input type="text" name="company" id="company"/>
+              </p>
+              <p>
+            <label>Email:<input type="email" name="email"/>
+              </p>
+              <p>
+            <label>Phone:<input type="text" name="phone" id="phone"/>
+              </p>
+              <p>
+            <label>Message:</br><textarea name="message" rows="5" id="message">
+                </textarea>
+            </label>
+              </p>
+              <p>
+            <button type="submit" onclick="return submitForm()">Submit</button>
+              </p>
+            </form>
+            
+            <div class="closed" id="confirm">Your Message has been sent!</div>
+        
+            <hr/>
+        
+            <!-- <form id="sayHello">
+              <p>
+            <label>Name: <input type="text" name="name" id="name"/></label>
+              </p>
+              <p>
+            <button type="submit" onclick="return sayHelloToFirebase()">SayHello</button>
+              </p>
+            </form>     -->
+
+
+            <!--  ******************   Rodapé   ******************  -->
+            <footer>
+                <p>
+                    CV de Robert Kelvin Proto Tartarotti
+                </p>
+            </footer>
+
+    </body>
+</html> 
